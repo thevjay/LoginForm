@@ -78,7 +78,7 @@ body {
       .password-container {
         position: relative;
         width: 100%;
-        max-width: 300px; /* Set the maximum width of the container */
+        max-width: 300px; 
       }
       
       .password-toggle {
@@ -95,22 +95,22 @@ body {
 		}
 
     body {
-      background-image: url('https://wallpapercave.com/wp/wp2939900.jpg'); /* replace with your image file */
-      background-size: cover; /* scale the image to cover the entire page */
-      background-position: center; /* center the image */
-      height: 100vh; /* set the height of the body to the full viewport height */
-      margin: 0; /* remove default margin */
-      font-family: Arial, sans-serif; /* add a font family */
+      background-image: url('https://wallpapercave.com/wp/wp2939900.jpg'); 
+      background-size: cover; 
+      background-position: center; /
+      height: 100vh; 
+      margin: 0; 
+      font-family: Arial, sans-serif; 
     }
     
     #login-form {
-      background-color: #fff; /* add a white background to the form */
-      padding: 20px; /* add some padding to the form */
-      border: 1px solid #ddd; /* add a border to the form */
-      border-radius: 10px; /* add a rounded corner to the form */
-      width: 300px; /* set the width of the form */
-      margin: 40px auto; /* center the form horizontally */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow to the form */
+      background-color: #fff; 
+      padding: 20px; 
+      border: 1px solid #ddd; 
+      border-radius: 10px; 
+      width: 300px; 
+      margin: 40px auto; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     }
   /* Media queries for responsiveness */
   
