@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="login-form">
+        <h1>Login</h1>
+        <label for="username">Username/Email:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your Email" value="abcd@gmail.com"><br><br>
+
+        <label for="password">Password:</label>
+        <!--<input type="password" id="password" name="password" placeholder="Enter your Password" value="123456789">-->
+        <div class="password-container">
+            <input type="password" id="password" name="password" value="123456789">
+            <span class="password-toggle" id="password-toggle">Show</span>
+          </div>
+        <input type="checkbox" id="remember-me" name="remember-me">
+		<label for="remember-me">Remember Me</label>
+        <input type="submit" value="Login">
+        <div id="error-message"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
